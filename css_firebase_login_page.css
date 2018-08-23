@@ -1,0 +1,53 @@
+body {
+    margin: 0;
+    padding: 0;
+    color: brown;
+    background-image: url("back.jpg");
+    background-size: cover;
+}
+
+* {
+    font-family: 'lato',sans-serif;
+}
+
+.main_div, .exit_div {
+    width: 25%;
+    margin: 0px auto;
+    margin-top: 10%;
+    text-align: center;
+    display: none;
+    padding: 25px;
+    background-color: rgba(127, 196, 167, 0.281);
+    border: thin solid brown;
+}
+
+.main_div input {
+    display: block;
+    outline: none;
+    width: 90%;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    padding: 5%;
+    margin-bottom: 20px;
+}
+.main_div input:focus {
+    background-color: rgb(254, 227, 193,0.6);
+    border-color: slategray;
+}
+    
+.main_div button, .exit_div button {
+     display: block;
+     width: 100%;
+     border-radius: 5px;
+     padding: 10px;
+     margin: 10px 0;
+     cursor: pointer;
+     border: thin solid brown;
+     background-color: brown;;
+     color: bisque;
+     transition: 0.2s;
+     font-weight: 600;
+}
+button:hover {
+    background-color: rgb(126, 31, 31);
+}
